@@ -1,7 +1,7 @@
 ---
 title: Scope+Lock
 description: An oscilloscope + lock-in amplifier for RedPitaya
-layout: default
+layout: page
 ---
 # Documentation for scope+lock
 
