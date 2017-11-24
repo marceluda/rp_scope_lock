@@ -62,7 +62,7 @@ scp -r scope+lock/resources/RP_py  root@rp-XXXXXX.local:/root/py
 ```
 
 ### automatic script
-The installation package includes a bash script to automatically upload the
+The installation package includes a bash script to automatically upload
 the application to the RedPitaya device.
 
 Just run:

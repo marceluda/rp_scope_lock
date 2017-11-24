@@ -6,7 +6,7 @@ layout: page
 # Documentation for scope+lock
 
 Scope+Lock is an application for the [RedPitaya](https://redpitaya.com/) enviroment/board
-witch implements an Oscilloscope aplication and a Lock-in amplifier. It's based on
+that implements an Oscilloscope aplication and a Lock-in amplifier. It's based on
 [relese-0.95 scope application](https://github.com/RedPitaya/RedPitaya/tree/release-v0.95/apps-free/scope)
 of the RedPitaya project.
 
