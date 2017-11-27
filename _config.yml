@@ -23,7 +23,6 @@ description: Lock-in amplifier for RedPitaya
 
 # List of links in the navigation bar
 navbar-links:
-  Scope+Lock: "index"
   Applications:
     - Lock-in measurements: "app/lock-in"
     - Feedback loop for atabilization: "app/stabilization"
