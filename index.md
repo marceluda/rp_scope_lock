@@ -20,13 +20,13 @@ The aim of this application is to provide a toolkit for labs measurements and co
 - Lock-in amplifier (only with local oscillator)
 - Modulation generator
   - Harmonic functions (from 3 Hz to 50 kHz)
-    - Two 1f functions in quadrature (sine and cosine)
-    - One 1f function with phase control
-    - One 2f function  with phase control
-    - One 3f function  with phase control
+>   - Two 1f functions in quadrature (sine and cosine)
+>   - One 1f function with phase control
+>   - One 2f function  with phase control
+>   - One 3f function  with phase control
   - Square functions (from 30 mHz to 31 MHz)
-    - Two 1f functions in quadrature
-    - One 1f function with phase control
+>   - Two 1f functions in quadrature
+>   - One 1f function with phase control
 - Scan control
   - Triangle scan generator
   - Auto-lock / relock system
@@ -47,38 +47,43 @@ locking-systems o stabilization-systems. The actually probed schemes are mostly 
 controlled by electric signals.
 
 ### Applications Scope+lock
-  - **Phase sensitive measurement of small signals**
 
-   Implementation of the lock-in technique to measure the response of a system
-   under and oscillatory excitation. If you use an excitation signal of frequency *f*
-   (reference signal),
-   the system response will have also a *f* Fourier component. With the lock-in technique
-   you can filter the *f* component and measure its amplitude and phase relation with
-   the reference signal. The filtering process enables you to reduce the noise signal from
-   the other frequencies components and amplify the response one, enhancing the
-   signal-to-noise ratio. We call this process *demodulation*. Also, you can demodulate
-   the input signal using *2f* and *3f* frequencies to get harmonic components that
-   have information of non-linear behavior of the physical system.
+**Phase sensitive measurement of small signals**
 
-  - **Closed loop system schemes for variable stabilization**
+>  Implementation of the lock-in technique to measure the response of a system
+>  under and oscillatory excitation. If you use an excitation signal of frequency *f*
+>  (reference signal),
+>  the system response will have also a *f* Fourier component. With the lock-in technique
+>  you can filter the *f* component and measure its amplitude and phase relation with
+>  the reference signal. The filtering process enables you to reduce the noise signal from
+>  the other frequencies components and amplify the response one, enhancing the
+>  signal-to-noise ratio. We call this process *demodulation*. Also, you can demodulate
+>  the input signal using *2f* and *3f* frequencies to get harmonic components that
+>  have information of non-linear behavior of the physical system.
 
-    You have a physical variable that you want to stabilize against environment changes.
-    You can measure it and convert it in an electrical signal you take from RP input 1.
-    With scope+lock you can stabilize it to a desired offset voltage value using an *error*
-    signal ( $error = input1 - offset$ ) that feeds a PID filter. The PID output is a
-    *correction* signals that can be added to the *control* signal that actually
-    controls the physical system.
+&nbsp;
 
-    This is called a close loop scheme. If it is well designed, you can use it to make
-    the physical system to be *"tied"* to a particular state.
+**Closed loop system schemes for variable stabilization**
 
-  - **Combined systems**
+>   You have a physical variable that you want to stabilize against environment changes.
+>   You can measure it and convert it in an electrical signal you take from RP input 1.
+>   With scope+lock you can stabilize it to a desired offset voltage value using an *error*
+>   signal ( $error = input1 - offset$ ) that feeds a PID filter. The PID output is a
+>   *correction* signals that can be added to the *control* signal that actually
+>   controls the physical system.
+>
+>   This is called a close loop scheme. If it is well designed, you can use it to make
+>   the physical system to be *"tied"* to a particular state.
 
-    Some times you can only measure the physical system that you want to stabilize
-    using information get by the lock-in technique. You can combine both techniques
-    to stabilize, for example, the phase of a system, the derivative of the response
-    signal or the noise-filtered amplitude of te response signal, building a lock-in
-    scheme whose output will be used as the *error* signal PID input.
+&nbsp;
+
+**Combined systems**
+
+>   Some times you can only measure the physical system that you want to stabilize
+>   using information get by the lock-in technique. You can combine both techniques
+>   to stabilize, for example, the phase of a system, the derivative of the response
+>   signal or the noise-filtered amplitude of te response signal, building a lock-in
+>   scheme whose output will be used as the *error* signal PID input.
 
 
 ###  Tested Applications in lab
