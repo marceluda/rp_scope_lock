@@ -24,6 +24,12 @@ description: Lock-in amplifier for RedPitaya
 # List of links in the navigation bar
 navbar-links:
   Scope+Lock: "index"
+  Applications
+    - Lock-in measurements: "app/lock-in"
+    - Feedback loop for atabilization: "app/stabilization"
+      - Laser stabilization:  "app/stabilization-laser"
+      - Electronic stabilization:  "app/stabilization-electronic"
+    - Pound-Drever-Hall laser stabilisation: "app/pdh"
   Help:
     - Download and install: "install"
     - Usage: "usage"
