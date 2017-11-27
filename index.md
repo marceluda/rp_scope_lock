@@ -20,13 +20,13 @@ The aim of this application is to provide a toolkit for labs measurements and co
 - Lock-in amplifier (only with local oscillator)
 - Modulation generator
   - Harmonic functions (from 3 Hz to 50 kHz)
->   - Two 1f functions in quadrature (sine and cosine)
->   - One 1f function with phase control
->   - One 2f function  with phase control
->   - One 3f function  with phase control
+    - Two 1f functions in quadrature (sine and cosine)
+    - One 1f function with phase control
+    - One 2f function  with phase control
+    - One 3f function  with phase control
   - Square functions (from 30 mHz to 31 MHz)
->   - Two 1f functions in quadrature
->   - One 1f function with phase control
+    - Two 1f functions in quadrature
+    - One 1f function with phase control
 - Scan control
   - Triangle scan generator
   - Auto-lock / relock system
@@ -42,7 +42,9 @@ The aim of this application is to provide a toolkit for labs measurements and co
 
 The application implements a lock-in amplifier and two PID filters. This elements
 are suitable for several stabilization schemes implementations: they measure
-low amplitude signals to get a physical system state and then use a closed-loop feedback system to stabilize the state of the physical system to a desired one. We call these
+low amplitude signals to get a physical system state and then use a closed-loop feedback system to stabilize the state of the physical system to a desired one.
+
+We call these
 locking-systems o stabilization-systems. The actually probed schemes are mostly from laser-optics applications, because scope+lock was created in an optics lab with this purpose. But all off then are ready to use in any physical system o engineering project
 controlled by electric signals.
 
@@ -61,7 +63,6 @@ controlled by electric signals.
 >  the input signal using *2f* and *3f* frequencies to get harmonic components that
 >  have information of non-linear behavior of the physical system.
 
-&nbsp;
 
 **Closed loop system schemes for variable stabilization**
 
@@ -75,7 +76,6 @@ controlled by electric signals.
 >   This is called a close loop scheme. If it is well designed, you can use it to make
 >   the physical system to be *"tied"* to a particular state.
 
-&nbsp;
 
 **Combined systems**
 
@@ -86,7 +86,7 @@ controlled by electric signals.
 >   scheme whose output will be used as the *error* signal PID input.
 
 
-###  Tested Applications in lab
+###  Applications tested in lab
   - Stabilization of laser wavelength to atomic transition
   - Stabilization of laser wavelength to Fabry-Perot interferometer (Pound-Drever-Hall)
   - Stabilization of VCO frequency to an electronic reference (Crystal or RCL circuit)
