@@ -3,7 +3,6 @@ title: Scope+Lock
 description: An oscilloscope + lock-in amplifier for RedPitaya
 layout: page
 ---
-# Documentation for scope+lock
 
 Scope+Lock is an application for the [RedPitaya](https://redpitaya.com/) enviroment/board
 that implements an Oscilloscope aplication and a Lock-in amplifier. It's based on
@@ -38,3 +37,5 @@ The aim of this application is to provide a toolkit for labs measurements and co
 - Lock controller
   - System for making closed-loop stabilization schemes
   - Graphic tool for lock start-point selection
+
+## Applications
