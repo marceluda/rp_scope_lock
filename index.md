@@ -17,7 +17,7 @@ The aim of this application is to provide a toolkit for labs measurements and co
 - Python based remote control (designed for Spyder under Linux)
 - Complete Free Software source code.
 - Oscilloscope application
-- Lock-in amplifier (only with local oscillator)
+- Lock-in amplifier (only with internal oscillator)
 - Modulation generator
   - Harmonic functions (from 3 Hz to 50 kHz)
     - Two 1f functions in quadrature (sine and cosine)
